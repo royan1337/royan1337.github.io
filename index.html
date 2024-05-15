@@ -1,105 +1,113 @@
 <!DOCTYPE html>
 <html>
-<meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Sono:wght@600&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
-
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
-  <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script><link href="https://feeldreams.github.io/forkamuaja/style.css" rel="stylesheet" type="text/css" />
-  <script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
-  
-<head>
-<title>Pantun Romantis Buat Istriku</title>
-<link rel="icon" type="image/x-icon" href="https://malasid.github.io/favicon.png">
-<meta name="description" content="HTML Replit Coding">
-<!-- 
-  Made with love by Rayys!
-  
-     Blog: feeldream.id
-     Instagram: @rayyarrr
-     TikTok: @feelthisray
-     Email: rayyarr73@gmail.com
-     
-  Thanks to all <3
--->
-</head>
-<body>
-	
-   <!-- Ganti Audio di sini -->
-   <audio src="https://feeldreams.github.io/angelbabypart2.mp3" id="linkmp3" class="sembunyi"></audio>
-   
-   <div id="bodyblur">
-     <!-- Wallpaper --><img src="https://feeldreams.github.io/pics/awan1.jpg" id="wallpaper"/>
-   </div>
-   
-   <div id='Content'>
-
-     <div id="ftAwal">
-       <!-- Stiker Pembuka -->
-       <img src="https://feeldreams.github.io/pandaputih.gif" id="ftoAwal"/>
-     </div>
-
-     <div id="loveIn">
-       <!-- Tombol LOVE --><label class='lovein'>❤️</label>
-     </div>
-     <p id="ket">Sentuh LOVEnya!</p>
-     
-     <div class="kumpulanstiker">
-         <!-- Stiker untuk Konten -->
-         <img src="https://feeldreams.github.io/bunga.gif" id="fotostiker"/>
-         <img src="https://feeldreams.github.io/emawh.gif" id="fotostiker1"/>
-         <img src="https://feeldreams.github.io/pandakuning.gif" id="fotostiker2"/>
-         <img src="https://feeldreams.github.io/pusn.gif" id="fotostiker3"/>
-         <img src="https://feeldreams.github.io/gumush.gif" id="fotostikerA"/>
-     </div>
-     
-     <div><div id='pergeseran'>
-     	
-        <p><b>
-	        <span>hai istrikuuu<br>aku ada pantun buat istrikuu</span>
-        </b></p>
-        
-        <p><b>
-	        <span>ikan hiu bawa koper</span>
-        </b></p>
-        
-        <p><b>
-	        <span>i love uu forever<3333</span>
-        </b></p>
-
-        <p><b>
-	        <span>sate² apa yg bikin aku bahagia?</span>
-        </b></p>
-
-        <p><b>
-	        <span>saterusnya sama kamu<br>😍😆🥰🤭🤣</span>
-        </b></p>
-        
-        <p><b>
-	        <span id="iniakhir">terakhir nihh ><</span>
-        </b></p>
-       
-     </div></div>
-
-     <p id="ketgeser">Klik untuk Geser!</p>
-
-     <div><blockquote id='bq'>
-       <p id="kalimat"></p>
-       <p id="pesanAkhir" class="gaya4"></p>
-     </blockquote></div>
-
-   </div>
-   
-<script>
-  const body = document.querySelector("body");const swalst = Swal.mixin({timer: 2500, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 90,}); audio = new Audio('' + linkmp3.src); ftganti=0;fungsi=0;fungsiAwal=0;deffotostiker=fotostiker.src;function berjatuhan() {const heart = document.createElement("div"); heart.className = "fas fa-heart"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-heart"); if (heartArr.length > 100) {heartArr[0].remove()}},100);Content.style = "opacity:1;margin-top:14vh"; const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageHeight: 80,}); 
-  
-  teksAkhir = "di jalan ada lampu,<br>di kuburan ada hantu,<br>di kerajaan ada ratu,<br>tapi di hatiku...<br>cuma ada kamu, jiakhhh<3333";
-  teksAkhirB = "i love uuu ><";
-</script>
-<script src="https://malasid.github.io/pantunromantis/pantunromantis.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Portfolio Saya</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+      <ul>
+        <li> <a href="">Menu</a> </li>
+        <li> <a href="">Site Map</a> </li>
+        <li> <a href="">About</a> </li>
+        <li> <a href="">Contact</a> </li>
+      </ul>
+      <div class="header-welcome">
+        <h1>Welcome</h1>
+        <p>I'm Royan Bayu Romadhan</p>
+        <br><br>
+        <a href="#bio-singkat">More</a>
+      </div>
+      <div class="overlay"></div>
+    </div>
+    <div class="content">
+      <div id="bio-singkat">
+        <div>
+          <h3>Royan Bayu Romadhan</h3>
+          <hr>
+          <p> I am Royan. Lathe Operator and Warehouse Operator from Surabaya, East Java. I have rich experience in lathe machine. and also i like technology and industrial. </p>
+          <!-- <p>Saya lahir di-Wonogiri dan menempuh jenjang pendidikan sekolah dasar disana. Kemudian setelah memasuki bangku SMP saya dan sekeluarga pindah ke-Semarang untuk alasan keluarga.</p> -->
+        </div>
+      </div>
+      <div id="galeri">
+        <div>
+          <h1>here's some of me</h1>
+          <hr>
+          <div>
+            <div class="card">
+              <img src="img/img_avatar.png" alt=""/>
+              <div class="card-info">
+                <h4>Gambar-1</h4>
+                <p> Elit qui soluta libero.  </p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/img_avatar.png" alt=""/>
+              <div class="card-info">
+                <h4>Gambar-2</h4>
+                <p> Amet nobis minus iste.  </p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/img_avatar.png" alt=""/>
+              <div class="card-info">
+                <h4>Gambar-3</h4>
+                <p> Dolor ex consectetur excepturi.  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="motivate">
+        <h1>hard work will never let you down</h1>
+        <div id="overlay"></div>
+      </div>
+      <div id="footer">
+        <div class="footer-item">
+          <div>
+            <h2>About Me</h2>
+            <p>Amet ratione saepe eveniet non nesciunt, at. Expedita architecto quibusdam inventore debitis corrupti! Perspiciatis cum delectus totam corrupti quos nulla Reiciendis </p>
+          </div>
+        </div>
+        <div class="footer-item sosial">
+          <h2>Social Media</h2>
+          <div class="sosmed">
+            <a href="">
+              <div class="sosmed">
+                <img src="" alt="">
+                <h5>Facebook</h5>
+              </div>
+            </a>
+          </div>
+          <div class="sosmed">
+            <a href="">
+              <img src="" alt="">
+              <h5>WhatsApp</h5>
+            </a>
+          </div>
+          <div class="sosmed">
+            <a href="">
+              <img src="" alt="">
+              <h5>Telegram</h5>
+            </a>
+          </div>
+        </div>
+        <div class="footer-item">
+          <h2>Contact</h2>
+          <div class="sosmed">
+            <h5>LinkedIn : https://id.linkedin.com/in/royan-bayu-romadhan-b92218212 </h5>
+          </div>
+          <div class="sosmed">
+            <h5>Nomor Hp : 08505548285</h5>
+          </div>
+          <div class="sosmed">
+            <h5>E-Mail : royanromadhan2nd@gmail.com</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
